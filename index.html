@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="flex">
     <div class="main-container"> 
         <header>    
-            <div class="header-box"><!-- Box contenant le header pour faciliter l'utilisation de flexbox et marge de la page -->
+            <div class="header-box flex"><!-- Box contenant le header pour faciliter l'utilisation de flexbox et marge de la page -->
                 <div class="logo">
                     <img src="./images/logo/Booki.png" alt="logo Booki">
                 </div>
                 <nav>
-                    <div class="menu-nav">
+                    <div class="menu-nav flex">
                         <div class="navigation-link">
                             <a href="#hebergements">Hébergements</a>
                         </div>
@@ -31,49 +31,49 @@
                 </nav>
             </div>
         </header>
-        <main>
+        <main class="padding-main">
             <div>
                 <section class="title-and-search"> 
                     <div class="margin-bottom-35">
                         <h1 class="page-title title-size">Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p class="description">En plein centre-ville ou en pleine nature</p> <!-- nécessite une class pour le marging et padding en responsive -->
                     </div>
-                        <form action="" method=get class="search margin-bottom-35"> <!-- form pour le formulaire de recherche  -->
-                            <div class="location-dot-icon">
+                        <form action="" method=get class="search flex margin-bottom-35"> <!-- form pour le formulaire de recherche  -->
+                            <div class="location-dot-icon flex">
                                 <i class="fa-sharp fa-solid fa-location-dot"></i>
                             </div>
                             <div class="search-form">                          
-                                <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+                                <input type="text" name="ville" id="ville" placeholder="Marseille, France" class="fontsize-18">
                             </div>
-                            <div class="search-button">
-                                <input type="button" class="button" value="Rechercher">
+                            <div class="search-button flex">
+                                <input type="button" class="button fontsize-18" value="Rechercher">
                                 <input type="submit" class="button-mobile">
                                     <i class="fa-solid fa-magnifying-glass button-mobile"></i>         
                             </div>
                         </form>    
-                    <div class="filters margin-bottom-35"> <!--filters-->
-                            <h2>Filtres</h2> 
-                            <div class="filter-button">
+                    <div class="filters flex margin-bottom-35"> <!--filters-->
+                            <h2 class="fontsize-18">Filtres</h2> 
+                            <div class="filter-button flex">
                                 <article class="buttons">
-                                        <button type="submit" class="button-filter">                                   
+                                        <button type="submit" class="button-filter flex">                                   
                                             <i class="fa-sharp fa-solid fa-money-bill-wave"></i>
                                             <p>Économique</p>
                                         </button>
                                 </article>
                                 <article class="buttons">
-                                        <button type="submit" class="button-filter">
+                                        <button type="submit" class="button-filter flex">
                                             <i class="fa-solid fa-person"></i>
                                             <p>Familial</p>
                                         </button>
                                 </article>
                                 <article class="buttons">
-                                        <button type="submit" class="button-filter">
+                                        <button type="submit" class="button-filter flex">
                                             <i class="fa-solid fa-heart"></i>
                                             <p>Romantique</p>
                                         </button>
                                 </article>
                                 <article class="buttons">
-                                        <button type="submit" class="button-filter">
+                                        <button type="submit" class="button-filter flex">
                                             <i class="fa-sharp fa-solid fa-fire fa-filters"></i>
                                             <p>Nos pépites</p>
                                         </button>
@@ -90,7 +90,7 @@
             </div> 
 
             <div class="hebergements-and-populaires">
-                <section class="hebergements padding-section cards-order"> <!--Hébergements-->
+                <section class="hebergements padding-section cards-order" id="hebergements"> <!--Hébergements-->
                     <div class="hebergements-title">
                         <h2 class="title-size">Hébergements à Marseille</h2>
                     </div>
@@ -211,7 +211,7 @@
                         </a>
                     </div>
                     <div class="see-more">
-                        <a href="#Afficher-plus">Afficher plus</a>
+                        <a href="#Afficher-plus" class="fontsize-18">Afficher plus</a>
                     </div>
                 </section>
 
@@ -282,7 +282,7 @@
                 </section>
             </div>
             <div class="activites margin-bottom-35">
-                <section class="activities-section padding-section">
+                <section class="activities-section padding-section" id="activites">
                     <div class="activities-title">
                         <h2 class="title-size">Activités à Marseille</h2>
                     </div>
@@ -334,7 +334,7 @@
                     </ul>
                 </div>
                 <div class="footer-inside">
-                    <h3>Nos hébergements</h3>
+                    <h3 class="fontsize-18">Nos hébergements</h3>
                     <ul>
                         <li><a href="#">Charte qualité</a></li>
                         <li><a href="#">Proposez votre hôtel</a></li>
