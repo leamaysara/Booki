@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
-
 </head>
 
 <body class="flex">
@@ -51,28 +50,29 @@
                         <div class="search-button flex">
                             <input type="button" class="button fontsize-18" value="Rechercher">
                             <input type="submit" class="button-mobile">
-                                <i class="fa-solid fa-magnifying-glass button-mobile"></i>         
+                            <i class="fa-solid fa-magnifying-glass button-mobile"></i>         
                         </div>
                     </form>    
-                    <div class="filters flex margin-bottom-35"> <!--filters-->
+                    <!--filters-->
+                    <div class="filters flex margin-bottom-35">
                         <h2 class="fontsize-18">Filtres</h2>
                         <div class="filter-button flex">
-                            <div class="button-filter flex">                                   
+                            <button type="submit" class="button-filter flex">                                   
                                 <i class="fa-sharp fa-solid fa-money-bill-wave"></i>
-                                <p>Économique</p>
-                            </div>
-                            <div class="button-filter flex">
+                                <span>Économique</span>
+                            </button>
+                            <button type="submit" class="button-filter flex">
                                 <i class="fa-solid fa-person"></i>
-                                <p>Familial</p>
-                            </div>
-                            <div class="button-filter flex">
+                                <span>Familial</span>
+                            </button>
+                            <button type="submit" class="button-filter flex">
                                 <i class="fa-solid fa-heart"></i>
-                                <p>Romantique</p>
-                            </div>
-                            <div class="button-filter flex">
+                                <span>Romantique</span>
+                            </button>
+                            <button type="submit" class="button-filter flex">
                                 <i class="fa-sharp fa-solid fa-fire fa-filters"></i>
-                                <p>Nos pépites</p>
-                            </div>
+                                <span>Nos pépites</span>
+                            </button>
                         </div>
                     </div>
                     <div class="info margin-bottom-35">
@@ -84,8 +84,9 @@
                 </section>
             </div> 
 
+            <!--Hébergements-->
             <div class="hebergements-and-populaires">
-                <section class="hebergements padding-section cards-order" id="hebergements"> <!--Hébergements-->
+                <section class="hebergements padding-section cards-order" id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="title-size">Hébergements à Marseille</h2>
                     </div>
@@ -283,7 +284,7 @@
                         <h2 class="title-size">Activités à Marseille</h2>
                     </div>
                     <div class="activities-cards">
-                        <a>
+                        <a href="#" class="card-links">
                             <article class="act-card">
                                 <img src="./images/activites/reno-laithienne.jpg" alt="Photo des bâteaux du Vieux port de Marseille">
                                 <div class="act-card-content">
@@ -291,25 +292,25 @@
                                 </div>
                             </article>
                         </a>
-                        <a>
+                        <a href="#" class="card-links">
                             <article class="act-card">
-                                <img src="./images/activites/paul-hermann.jpg" alt="Photo des bâteaux du Vieux port de Marseille">
+                                <img src="./images/activites/paul-hermann.jpg" alt="Photo du Fort de Promègues de Marseille">
                                 <div class="act-card-content">
                                     <h3 class="card-title">Fort de Promègues</h3>
                                 </div>
                             </article>
                         </a>
-                        <a>
+                        <a href="#" class="card-links">
                             <article class="act-card">
-                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo des bâteaux du Vieux port de Marseille">
+                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo du Parc national des Calanques de Marseille">
                                 <div class="act-card-content">
                                     <h3 class="card-title">Parc national des Calanques</h3>
                                 </div>
                             </article>
                         </a>
-                        <a>
+                        <a href="#" class="card-links">
                             <article class="act-card">
-                                <img src="./images/activites/florian-wehde.jpg" alt="Photo des bâteaux du Vieux port de Marseille">
+                                <img src="./images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde à Marseille">
                                 <div class="act-card-content">
                                     <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                                 </div>

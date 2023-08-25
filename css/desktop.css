@@ -54,7 +54,7 @@ body {
 }
 
 .padding-main {
-    padding: 0 50px;
+    padding: 30px 50px 0 50px;
 }
 
 .title-size { 
@@ -78,8 +78,8 @@ body {
 .flex {
     display: flex;
 }
-/***** Fin nettoyage CSS *****/
 
+/***** Fin nettoyage CSS *****/
 .card {
     background-color: white;
     border-radius: 20px;
@@ -107,7 +107,6 @@ body {
 .header-box {
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 30px;
     height: 79px;
 }
 
@@ -473,4 +472,3 @@ ul {
     text-decoration: none;
     color: var(--main-black);
 }
-
