@@ -129,14 +129,15 @@
     }
 
     .filter-button {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        width: 100%;
+        grid-row-gap: 20px;
     }
 
     .button-filter {
         font-size: 14px;
-        width: 150px;
-        flex: 1 0 0
     }
 
     .icon-info {
